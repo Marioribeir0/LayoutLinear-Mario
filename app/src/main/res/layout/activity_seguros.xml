@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Seguros"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    >
+
+    <TextView
+        android:text="Seguros XPTO"
+        style="@style/SeguroStyle"
+        />
+
+    <TextView
+        android:text="Serviços"
+        style="@style/ServicosStyle"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        >
+
+        <TextView
+            android:layout_weight="1"
+            android:text="Automóveis"
+            style="@style/TextViewStyle"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:text="Imóveis"
+            style="@style/TextViewStyle"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/black"
+        >
+
+    </View>
+
+
+    <TextView
+        android:text="Novidade"
+        style="@style/NovidadeStyle"
+        />
+
+    <TextView
+        android:text="Desconto de 5% ao assinar esse mês!"
+        style="@style/DescontoStyle"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/black">
+
+    </View>
+
+    <TextView
+        android:text="Precisa de ajuda?"
+        style="@style/AjudaStyle"
+        />
+
+    <Button
+        android:text="Entre em contato"
+        style="@style/ButtonStyle"
+        />
+
+
+
+
+
+</LinearLayout>
